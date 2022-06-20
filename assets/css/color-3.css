@@ -1,0 +1,1301 @@
+:root {
+  --default-color: #FF512F; /* E40405 */
+}
+
+a.btn-simple:hover {
+    color: var(--default-color);
+}
+
+.btn-animation.border.theme {
+    border: 2px solid var(--default-color) !important;
+    color: var(--default-color);
+}
+
+.btn-animation.border.theme::after {
+  background: var(--default-color);
+}
+
+.btn-animation.border.theme i::after {
+    background: var(--default-color);
+}
+
+.btn-animation.theme.effect {
+    border: 2px solid var(--default-color) !important;
+}
+
+.btn-animation.theme.effect::after {
+  background: var(--default-color);
+}
+
+.bg-theme {
+  background-color: var(--default-color);
+}
+
+.shadow.theme::after {
+  background: var(--default-color) none repeat scroll 0 0;
+}
+
+.shadow.theme-hard::after {
+  background: var(--default-color) none repeat scroll 0 0;
+}
+
+.btn-gray.border:hover {
+  background-color: var(--default-color);
+  border: 2px solid var(--default-color) !important;
+}
+
+.btn-standard {
+    color: var(--default-color);
+}
+
+.btn-standard i {
+    color: var(--default-color);
+}
+
+.bg-theme .btn-standard:hover,
+.bg-dark .btn-standard:hover,
+.bg-gradient .btn-standard:hover,
+.shadow .btn-standard:hover {
+  color: var(--default-color);
+}
+
+.bg-gradient {
+    background-color: var(--default-color);
+}
+
+.btn-theme {
+  background-color: var(--default-color);
+  border: 2px solid var(--default-color);
+}
+
+.btn-theme.border {
+  border: 2px solid var(--default-color) !important;
+}
+
+.btn-theme.border:hover {
+  background-color: var(--default-color);
+  border: 2px solid var(--default-color) !important;
+}
+
+.btn-theme.effect:hover, 
+ .btn-theme.effect:focus {
+  background: var(--default-color) none repeat scroll 0 0;
+  border: 2px solid var(--default-color);
+}
+
+.btn-smart {
+    color: var(--default-color);
+}
+
+.btn-smart:hover {
+  color: var(--default-color);
+}
+
+.btn-smart::after {
+    background: var(--default-color);
+}
+
+.attr-nav > a.btn-theme.effect:hover, 
+.attr-nav > a.btn-theme.effect, 
+.attr-nav > a.btn-theme.effect:focus {
+  background: var(--default-color) none repeat scroll 0 0;
+  border: 2px solid var(--default-color);
+}
+
+.attr-nav.social li a {
+  color: var(--default-color);
+}
+
+.site-heading h4 {
+    color: var(--default-color);
+}
+
+.site-heading h4::after {
+    background: var(--default-color);
+}
+
+.site-heading.clean h2 span {
+  color: var(--default-color);
+}
+
+.site-heading h2 span {
+  color: var(--default-color);
+}
+
+.site-heading h2 span {
+  color: var(--default-color);
+}
+
+.heading-center::after {
+    background: var(--default-color);
+}
+
+.heading-center::before {
+    background: var(--default-color);
+}
+
+.heading-side h5 {
+    color: var(--default-color);
+}
+
+.heading-side h5::after {
+    background: var(--default-color);
+}
+
+.heading-center h5 {
+    color: var(--default-color) !important;
+}
+
+.heading-left h5 {
+    color: var(--default-color);
+}
+
+.top-bar-area .button a {
+    color: var(--default-color);
+}
+
+.top-bar-area .link a:last-child {
+    color: var(--default-color);
+}
+
+.top-bar-area .item-flex .language-switcher .dropdown-toggle, 
+.top-bar-area .item-flex .language-switcher .dropdown-toggle:focus {
+    background-color: var(--default-color);
+}
+
+.banner-area.text-default .content h2 strong {
+  color: var(--default-color);
+}
+
+.banner-area.portfolio .content h3 {
+    margin: 0;
+    font-weight: 700;
+    color: var(--default-color);
+}
+
+.video-play-button {
+  color: var(--default-color);
+}
+
+.video-play-button.theme:before,
+.video-play-button.theme:after {
+  background: var(--default-color) repeat scroll 0 0;
+}
+
+.video-play-button i {
+  color: var(--default-color);
+}
+
+.video-play-button.relative i {
+  color: var(--default-color);
+}
+
+.features-items .item {
+    border-bottom: var(--default-color);
+}
+
+.features-area .features-items .item > a::after {
+    background: var(--default-color);
+}
+
+.features-items .single-item .item::after {
+    background: linear-gradient(to bottom, var(--default-color) 0%,rgba(240,152,25,1) 100%);
+}
+
+.about-area .content h4 {
+    color: var(--default-color);
+}
+
+.about-area .content h4::after {
+    background: var(--default-color);
+}
+
+.about-area .thumb .fun-fact .counter {
+    color: var(--default-color);
+}
+
+.about-content-area .top-info li::after {
+    color: var(--default-color);
+}
+
+.about-area .about-right h5 {
+    color: var(--default-color);
+}
+
+.feature-area .feature-items .item .info i {
+    background: var(--default-color);
+}
+
+.our-features-area .features-box .single-item:nth-child(2) .item .icon i {
+  background: var(--default-color);
+}
+
+.services-content-box.services-stage-carousel .owl-dots .owl-dot.active span::after {
+  background: var(--default-color);
+}
+
+.main-services-area .left-info h5 {
+    color: var(--default-color);
+}
+
+.services-details-items .services-sidebar .widget-title::after {
+    border-bottom: 2px solid var(--default-color);
+}
+
+.services-details-items .services-sidebar .services-list a::before {
+    background: var(--default-color);
+}
+
+.services-details-items .services-sidebar .single-widget.quick-contact .content i {
+    background: var(--default-color);
+}
+
+.services-details-items .services-sidebar .single-widget.quick-contact .content i::after {
+    background: var(--default-color);
+}
+
+.services-details-items .services-sidebar .single-widget.brochure a i {
+    color: var(--default-color);
+}
+
+.services-details-items .services-sidebar .single-widget.brochure a:hover {
+  color: var(--default-color);
+}
+
+.services-details-area .features i {
+    color: var(--default-color);
+}
+
+.team-area .team-items .thumb .social li:first-child a,
+.team-area .team-items .thumb .social li a:hover {
+    background: var(--default-color);
+}
+
+.team-single-area .right-info ul li a:hover {
+    color: var(--default-color);
+}
+
+.team-single-area .right-info span {
+    color: var(--default-color);
+}
+
+.team-single-area .social ul li a:hover {
+  background: var(--default-color);
+}
+
+.faq-area .info ul li::after {
+    color: var(--default-color);
+}
+
+.dark-layout .faq-area .faq-content .card .card-header h4 {
+    background: var(--default-color);
+}
+
+.pricing-footer a.btn-dark.effect:hover {
+  background: var(--default-color);
+  border-color: var(--default-color);
+}
+
+.pricing-area.plain .pricing .single-item .pricing-item.active,
+.pricing-area.plain .pricing .single-item .pricing-item:hover {
+    border-top: 3px solid var(--default-color);
+}
+
+.dark-layout .pricing-area.plain .pricing .single-item .pricing-item.active,
+.dark-layout .pricing-area.plain .pricing .single-item .pricing-item:hover {
+    border-top: 3px solid var(--default-color);
+}
+
+.portfolio-area .portfolio-items .pf-item .overlay > a {
+    background: var(--default-color);
+}
+
+.projects-area .projects-carousel .item .overlay > span {
+    background: var(--default-color);
+}
+
+.skill-items .progress-box .progress .progress-bar {
+  background: var(--default-color);
+}
+
+.testimonials-area .thumb::after {
+    background: var(--default-color);
+}
+
+.partner-area h2 strong {
+    text-decoration: underline;
+    color: var(--default-color);
+}
+
+.blog-area .item .date {
+    background: var(--default-color);
+}
+
+.blog-area.blog-standard .single-item.thumb-less .item .meta ul li a:hover {
+  color: var(--default-color);
+}
+
+.blog-area .footer-meta ul li a:hover {
+  color: var(--default-color);
+}
+
+.blog-area .info .meta li a:hover,
+.blog-area .info h4 a:hover {
+    color: var(--default-color);
+}
+
+.pagi-area .pagination li.active a {
+  background: var(--default-color);
+  border-color: var(--default-color);
+}
+
+.blog-area .sidebar .title h4::after {
+  border-bottom: 2px solid var(--default-color);
+}
+
+.blog-area .sidebar input[type="submit"]:hover {
+  background: var(--default-color) none repeat scroll 0 0;
+}
+
+.blog-area .sidebar .sidebar-item li a:hover {
+  color: var(--default-color);
+}
+
+.sidebar-item.recent-post li a:hover {
+  color: var(--default-color);
+}
+
+.sidebar-item.tags ul li a:hover {
+  color: var(--default-color);
+}
+
+.blog-area .sidebar .sidebar-item.add-banner .sidebar-info::after {
+  background: var(--default-color);
+}
+
+/* Blog Single */
+.blog-area.single .item .content-box span {
+  background: var(--default-color) none repeat scroll 0 0;
+}
+
+.blog-area .item blockquote::before {
+  background: var(--default-color);
+}
+
+.blog-area .blog-content .share li a {
+  color: var(--default-color);
+}
+
+.blog-area.single .post-pagi-area h5:hover {
+  color: var(--default-color);
+}
+
+.comments-list .commen-item .content .reply a:hover {
+    background: var(--default-color);
+}
+
+.comments-list .commen-item .content .title span {
+    color: var(--default-color);
+}
+
+.comments-info a:hover {
+  color: var(--default-color);
+}
+
+.pagination li a {
+  color: var(--default-color);
+}
+
+.pagination li.page-item.active a {
+  background: var(--default-color);
+  border-color: var(--default-color);
+}
+
+.contact-area .left-info .item i {
+    color: var(--default-color);
+}
+
+.contact-area .contact-items .form-items h5 {
+    color: var(--default-color) !important;
+}
+
+.contact-area .contact-items .form-items button {
+    background: var(--default-color);
+}
+
+footer .f-item.link li a:hover {
+  color: var(--default-color);
+}
+
+footer .footer-bottom form span.input-group-addon button {
+    background: var(--default-color);
+}
+
+footer.bg-dark .footer-bottom form span.input-group-addon button {
+    color: var(--default-color);
+}
+
+.site-preloader .ring {
+  border-top-color: var(--default-color);
+}
+
+button.wp-block-search__button {
+    background: var(--default-color) !important;
+}
+
+.blog-area .sidebar .wp-block-group__inner-container h2::after {
+    border-bottom: 2px solid var(--default-color);
+}
+
+.blog-area .sidebar .sidebar-item .wp-block-latest-comments.has-avatars li time.wp-block-latest-comments__comment-date {
+    color: var(--default-color);
+}
+
+.blog-area .pagi-area .pagination li span.page-numbers.dots {
+    color: var(--default-color) !important;
+}
+
+#wp-calendar a, a:active, a:focus, a:hover {
+  color: var(--default-color);
+}
+
+.wp-calendar-nav-prev a,
+.wp-calendar-nav-next a {
+  color: var(--default-color);
+}
+
+input[type="submit"],
+.wp-block-search__button{
+  width: auto !important;
+  background: var(--default-color);
+}
+
+.widget_calendar caption {
+  color: var(--default-color);
+}
+
+.widget_calendar a {
+  color: var(--default-color);
+}
+
+.button-fix {
+    background: var(--default-color);
+}
+
+/*===============================
+AVEIT UNIT TEST++++++++++++++++++
+++===============================*/
+
+
+.blog-area .single-item.sticky .item::after {
+    background: var(--default-color);
+}
+
+
+.blog-area.full-blog .item .info .meta ul li i {
+  color: var(--default-color);
+}
+
+.blog-area.full-blog .item .info .meta ul li a:hover {
+  color: var(--default-color);
+}
+
+.blog-area .pagi-area .pagination li span.page-numbers.dots {
+    color: var(--default-color) !important;
+}
+
+.pagi-area .pagination li span.current, .pagi-area .pagination li a:hover {
+    background: var(--default-color);
+    border-color: var(--default-color);
+}
+
+.widget_block.widget_search form .wp-block-search__inside-wrapper button {
+    background: var(--default-color) !important;
+}
+
+.wp-block-group__inner-container h2::after {
+  border-bottom: 2px solid var(--default-color);
+}
+
+.wp-block-calendar tbody td#today {
+    background: var(--default-color);
+    border-color: var(--default-color);
+}
+
+.wp-block-calendar nav.wp-calendar-nav a:hover {
+    color: var(--default-color);
+}
+
+.has-avatars.wp-block-latest-comments li footer time.wp-block-latest-comments__comment-date {
+    color: var(--default-color);
+}
+
+.blog-area .sidebar .title h4::after {
+  border-bottom: 2px solid var(--default-color);
+}
+
+.blog-area .info .post-sticky {
+    background: var(--default-color);
+}
+
+.widget_tag_cloud a:hover {
+    background: var(--default-color);
+    background-color: var(--default-color);
+}
+
+.bg-dark .widget_tag_cloud a:hover {
+    background: var(--default-color);
+    background-color: var(--default-color);
+}
+
+.widget_search button[type="submit"] {
+    color: var(--default-color) !important;
+}
+
+.sidebar-item.widget_rss .rss-date {
+    color: var(--default-color);
+}
+
+.sidebar-item.widget_rss cite {
+    color: var(--default-color);
+}
+
+.widget_recent_comments li span.comment-author-link a {
+    color: var(--default-color) !important;
+}
+
+.wp-calendar-table tr td a {
+    color: var(--default-color);
+}
+
+.wp-calendar-table tbody td#today {
+    background: var(--default-color);
+}
+
+.widget_calendar table td a {
+    color: var(--default-color) !important;
+}
+
+table td a {
+    color: var(--default-color);
+}
+
+.widget_calendar .calendar_wrap nav.wp-calendar-nav a:hover {
+  color: var(--default-color);
+}
+
+.blog-area a:hover {
+  color: var(--default-color);
+}
+
+
+.blog-area blockquote {
+  border-left: 5px solid var(--default-color);
+}
+
+.blog-area .info .footer-entry a:hover {
+  background: var(--default-color);
+}
+
+.post-pagi-area a:hover {
+  color: var(--default-color);
+}
+
+.post-nav-links .current, .post-nav-links a:hover {
+    background: var(--default-color);
+    border-color: var(--default-color);
+}
+
+.comments-list .comment-item .content .reply a:hover {
+    background: var(--default-color);
+}
+
+.comment-item .comments-info a:hover {
+  background: var(--default-color);
+}
+
+.comments-form button {
+  background-color: var(--default-color);
+  border: 2px solid var(--default-color);
+}
+
+.comments-area .comment-respond .comment-reply-title small a {
+    color: var(--default-color);
+}
+
+.comments-area .comment-respond form button {
+  background-color: var(--default-color);
+  border: 2px solid var(--default-color);
+}
+
+footer .f-item ul li a:hover {
+  color: var(--default-color);
+}
+
+p.post-nav-links span.post-page-numbers.current, p.post-nav-links a:hover {
+    border-color: var(--default-color);
+    background: var(--default-color);
+}
+
+.post-password-form input[type="submit"] {
+    background: var(--default-color) !important;
+}
+
+.blog-area .contact-comments button[type="submit"] {
+    background: var(--default-color);
+}
+
+.blog-area .contact-comments button[type="submit"] {
+    background: var(--default-color);
+}
+
+.post-pagi-area a:hover {
+    background: var(--default-color);
+}
+
+.about-area .we-do .item i {
+    background: var(--default-color);
+}
+
+.btn-animate .circle {
+  background: var(--default-color);
+}
+
+/*===============================
+BOOTSNAV++++++++++++++++++
+++===============================*/
+
+nav.navbar .quote-btn a {
+  border: 2px solid var(--default-color);
+}
+
+.attr-nav ul.cart-list li.total a {
+  background: var(--default-color) none repeat scroll 0 0;
+}
+
+.attr-nav ul.cart-list li.total a:hover {
+  background: var(--default-color) none repeat scroll 0 0 !important;
+}
+
+.attr-nav > ul > li > a span.badge {
+  background-color: var(--default-color);
+}
+
+.navbar .side .widget li a:hover {
+  color: var(--default-color);
+}
+
+.side .widget.address ul li i {
+  color: var(--default-color);
+}
+
+.side .widget.newsletter form span.input-group-addon button {
+  color: var(--default-color);
+}
+
+.side .widget ul.link li a {
+  color: var(--default-color);
+}
+
+nav.navbar.bootsnav .share.dark ul > li > a {
+  background-color: var(--default-color);
+}
+
+nav.navbar.bootsnav .share ul > li > a:hover {
+  color: var(--default-color);
+}
+
+ nav.navbar.bootsnav ul.nav > li > a.active {
+    color: var(--default-color);
+  }
+
+  nav.navbar.bootsnav.active-bg ul.nav > li > a.active {
+    background: var(--default-color) !important;
+  }
+
+   nav.navbar.bootsnav.active-border ul.nav > li > a.active::before {
+    border-bottom: 3px solid var(--default-color);
+  }
+
+  nav.navbar.bootsnav ul.nav > li.active > a {
+    color: var(--default-color);
+  }
+
+  nav.bootsnav.navbar-sidebar ul.nav > li.active > a i {
+    background: var(--default-color);
+  }
+
+  nav.navbar.bootsnav.active-full ul.nav > li > a.active,
+  nav.navbar.bootsnav.active-full ul.nav > li > a:hover {
+    background: var(--default-color) none repeat scroll 0 0 !important;
+  }
+
+  nav.navbar.bootsnav ul.nav > li > a:hover {
+    color: var(--default-color);
+  }
+
+  nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
+    color: var(--default-color);
+  }
+
+  nav.navbar.bootsnav ul.navbar-left li.dropdown ul.dropdown-menu li a:hover {
+    color: var(--default-color);
+  }
+
+  nav.navbar.bootsnav
+    ul.dropdown-menu.megamenu-content
+    .content
+    ul.menu-col
+    li
+    a:hover {
+    color: var(--default-color);
+  }
+
+  nav.bootsnav.navbar-sidebar ul.nav > li > a:hover {
+    color: var(--default-color);
+  }
+
+  nav.navbar.bootsnav ul.nav li.dropdown > ul.dropdown-menu li:hover > a {
+    color: var(--default-color) !important;
+  }
+
+  .attr-nav > ul > li.contact i {
+  color: var(--default-color);
+}
+
+.attr-nav > ul.link > li > a {
+  color: var(--default-color);
+}
+
+.attr-nav.menu li:last-child a {
+  background: var(--default-color) none repeat scroll 0 0;
+}
+
+.attr-nav > ul.button > li:last-child > a {
+    color: var(--default-color);
+}
+
+/*+++++++++++==++==========
+Responsive CSS
++=============++++++++++++*/
+
+.single-product-bottom-info ul.nav li a.active {
+      background: var(--default-color);
+  }
+
+
+/*+++++++++++==++==========
+Color 222222222222222222
++=============++++++++++++*/
+
+/*BOOTSNAV*/
+
+.blue .attr-nav > ul > li.menu > a {
+    background: var(--default-color);
+}
+
+.blue .side .widget.newsletter form span.input-group-addon button {
+  color: var(--default-color);
+}
+
+.blue nav.navbar.bootsnav ul.nav > li > a.active {
+    color: var(--default-color);
+  }
+
+  .blue .attr-nav > ul.button > li:last-child > a {
+    color: var(--default-color);
+}
+
+/*Style.css*/
+
+.video-btn i {
+  background: var(--default-color);
+}
+
+.text-light .video-btn i {
+  color: var(--default-color);
+}
+
+.video-btn i::after {
+    background: var(--default-color) repeat scroll 0 0;
+}
+
+.blue .btn-animation.border.theme {
+    border: 2px solid var(--default-color) !important;
+    color: var(--default-color);
+}
+
+.blue .btn-animation.border.theme::after {
+  background: var(--default-color);
+}
+
+.blue .btn-animation.border.theme i::after {
+    background: var(--default-color);
+}
+
+.bg-theme-blue, .blue .bg-theme {
+    background: var(--default-color);
+}
+
+.bg-theme-blue {
+    background: var(--default-color);
+}
+
+.blue .shadow.theme::after {
+  background: var(--default-color) none repeat scroll 0 0;
+}
+
+.blue .btn-gray.border:hover {
+  background-color: var(--default-color);
+  border: 2px solid var(--default-color) !important;
+}
+
+.blue .btn-theme {
+  background-color: var(--default-color);
+  color: #ffffff !important;
+  border: 2px solid var(--default-color);
+}
+
+.blue .btn-theme.border {
+  background-color: transparent;
+  color: var(--default-color) !important;
+  border: 2px solid var(--default-color) !important;
+}
+
+.blue .btn-theme.border:hover {
+  background-color: var(--default-color);
+  color: #ffffff !important;
+  border: 2px solid var(--default-color) !important;
+}
+
+.blue .btn-theme.effect:hover, 
+ .blue .btn-theme.effect:focus {
+  background: var(--default-color) none repeat scroll 0 0;
+  border: 2px solid var(--default-color);
+  color: #ffffff;
+}
+
+.blue .heading-center::after,
+.blue .heading-center::before {
+  background: var(--default-color);
+}
+
+.blue .heading-center h5 {
+  color: var(--default-color) !important;
+}
+
+.blue .heading-left h5 {
+    color: var(--default-color);
+}
+
+.banner-area .carousel-control.shadow {
+  background: transparent none repeat scroll 0 0;
+  color: var(--default-color);
+}
+
+.blue .banner-area.text-default .content h2 strong {
+    color: var(--default-color);
+}
+
+.blue .video-play-button i {
+  color: var(--default-color);
+}
+
+.about-us-content .experience .left-content i {
+    color: var(--default-color);
+}
+
+.about-us-content .info li i {
+    color: var(--default-color);
+}
+
+.free-trial-area ul li::after {
+    color: var(--default-color);
+}
+
+.our-features-area .features-box .item .icon i {
+    background: var(--default-color);
+}
+
+.services-content-box .item .icon > i::after {
+    background: var(--default-color);
+}
+
+.services-content-box .item > a:hover {
+    color: var(--default-color);
+}
+
+.blue .services-content-box.services-stage-carousel .owl-dots .owl-dot.active span::after {
+    background: var(--default-color);
+}
+
+.services-list-items .item .top i {
+    color: var(--default-color);
+}
+
+.services-list-items .item ul li::after {
+    color: var(--default-color);
+}
+
+.blue .team-area .team-items .thumb .social li:first-child a,
+.blue .team-area .team-items .thumb .social li a:hover {
+    background: var(--default-color);
+}
+
+.blue .team-single-area .thumb .social li:first-child a,
+.blue .team-single-area .thumb .social li a:hover {
+    background: var(--default-color);
+}
+
+.choose-us-area .info > h5 {
+  color: var(--default-color);
+}
+
+.choose-us-area .skill-items .progress-box .progress .progress-bar span {
+  background: var(--default-color);
+}
+
+.choose-us-area .skill-items .progress-box .progress .progress-bar span::after {
+  border-top: 5px solid var(--default-color);
+}
+
+.blue .pricing-footer a.btn-dark.effect:hover {
+  background: var(--default-color);
+  border-color: var(--default-color);
+}
+
+.blue .pricing-area.plain .pricing .single-item .pricing-item.active,
+.blue .pricing-area.plain .pricing .single-item .pricing-item:hover {
+    border-top: 3px solid var(--default-color);
+}
+
+.blue .skill-items .progress-box .progress .progress-bar {
+  background: var(--default-color);
+}
+
+.blue .testimonials-area .thumb::after {
+    background: var(--default-color);
+}
+
+.blue .partner-area h2 strong {
+    color: var(--default-color);
+}
+
+.blue .blog-area .item .date {
+    background: var(--default-color);
+}
+
+.blue .blog-area .item .date {
+  background: var(--default-color);
+}
+
+.blue .blog-area.blog-standard .single-item.thumb-less .item .meta ul li a:hover {
+  color: var(--default-color);
+}
+
+.blue .blog-area .footer-meta ul li a:hover {
+  color: var(--default-color);
+}
+
+.blue .blog-area .info .meta li a:hover,
+.blue .blog-area .info h4 a:hover {
+    color: var(--default-color);
+}
+
+.blue .contact-area .left-info .item i {
+    color: var(--default-color);
+}
+
+.blue .contact-area .contact-items .form-items h5 {
+    color: var(--default-color) !important;
+}
+
+.blue .contact-area .contact-items .form-items button {
+    background: var(--default-color);
+}
+
+.blue footer .footer-bottom form span.input-group-addon button {
+    color: var(--default-color) !important;
+}
+
+.blue .site-preloader .ring {
+  border-top-color: var(--default-color);
+}
+
+.software-banner form button {
+    background: var(--default-color);
+}
+
+.clients-area.standard h5 strong {
+    color: var(--default-color);
+}
+
+/*+++++++++++==++==========
+Color 33333333333333333
++=============++++++++++++*/
+
+  .it-solution nav.navbar.bootsnav ul.nav > li > a.active {
+    color: var(--default-color);
+  }
+
+.it-solution .bg-theme {
+  background-color: var(--default-color);
+}
+
+.it-solution .btn-gray.border:hover {
+  background-color: var(--default-color);
+  border: 2px solid var(--default-color) !important;
+}
+
+.it-solution .bg-gradient {
+    background-color: var(--default-color);
+}
+
+.it-solution .fun-factor-area form button {
+    background: var(--default-color);
+}
+
+.it-solution .team-area .team-items .thumb .social li:first-child a,
+.it-solution .team-area .team-items .thumb .social li a:hover {
+    background: var(--default-color);
+    color: #ffffff;
+}
+
+.it-solution .blog-area .item .date {
+    background: var(--default-color);
+}
+
+.it-solution .blog-area.blog-standard .single-item.thumb-less .item .meta ul li a:hover {
+  color: var(--default-color);
+}
+
+.it-solution .blog-area .footer-meta ul li a:hover {
+  color: var(--default-color);
+}
+
+.it-solution .blog-area .info .meta li a:hover,
+.it-solution .blog-area .info h4 a:hover {
+    color: var(--default-color);
+}
+
+.it-solution .contact-area .left-info .item i {
+    color: var(--default-color);
+}
+
+.it-solution .contact-area .contact-items .form-items h5 {
+    color: var(--default-color) !important;
+}
+
+.it-solution .contact-area .contact-items .form-items button {
+    background: var(--default-color);
+}
+
+.it-solution footer .footer-bottom form span.input-group-addon button {
+    color: var(--default-color) !important;
+}
+
+.it-solution .site-preloader .ring {
+  border-top-color: var(--default-color);
+}
+
+.it-solution .heading-center h5 {
+    color: var(--default-color) !important;
+}
+
+.it-solution .btn-theme {
+  background-color: var(--default-color);
+  border: 2px solid var(--default-color);
+}
+
+.it-solution .heading-center::after,
+.it-solution .heading-center::before {
+  background: var(--default-color);
+}
+
+.top-bar-area li i {
+    color: var(--default-color);
+}
+
+.top-bar-area .social li a {
+    background: var(--default-color);
+}
+
+.banner-area .appoinment-box button {
+    background: var(--default-color);
+}
+
+
+.about-us-content-area .content li::after {
+    color: var(--default-color);
+}
+
+.about-us-content-area .content > h5 {
+    color: var(--default-color);
+}
+
+.about-us-content-area .thumb::after {
+    background: var(--default-color);
+}
+
+.about-us-content-area .thumb::before {
+    background: var(--default-color);
+}
+
+.services-list-items.services-default-carousel .item .top i {
+    color: var(--default-color);
+}
+
+.services-list-items.services-default-carousel .item ul li::after {
+    color: var(--default-color);
+}
+
+.services-list-items.services-default-carousel .owl-nav .owl-prev:hover, 
+.services-list-items.services-default-carousel .owl-nav .owl-next:hover {
+  background: #ffffff none repeat scroll 0 0;
+  color: var(--default-color);
+}
+
+.services-list-items.services-default-carousel .item > a:hover {
+    color: var(--default-color);
+}
+
+/*+++++++++++++++++++++++++++
+Linear Gradient===========*/
+
+.breadcrumb-area.less-background::after {
+    background: linear-gradient(90deg, rgba(255,81,47,1) 0%, rgba(240,152,25,1) 100%);
+    opacity: 1;
+}
+
+.navbar .attr-nav a.button::after {
+    background: linear-gradient(to left, #4ac4f3, #00ffe7, #4ac4f3);
+}
+
+.bg-light-gradient {
+  background: linear-gradient(90deg, rgba(255,81,47,1) 36%, rgba(240,152,25,1) 100%);
+}
+
+.gradient-overlay::after {
+    background: linear-gradient(90deg, rgba(255,81,47,1) 0%, rgba(240,152,25,1) 100%);
+}
+
+.gradient-overlay-dark::after {
+    background: linear-gradient(to bottom, #230985 0%,#262626 100%);
+}
+
+.it-solution .shadow.theme::after {
+  background: linear-gradient(90deg, rgba(255,81,47,1) 35%, rgba(240,152,25,1) 100%);
+}
+
+.blue .shadow.theme-hard::after {
+  background: linear-gradient(90deg, rgba(255,81,47,1) 32%, rgba(240,152,25,1) 100%);
+}
+
+.it-solution .shadow.theme-hard::after {
+  background: linear-gradient(90deg, rgba(255,81,47,1) 35%, rgba(240,152,25,1) 100%);
+}
+
+.bg-gradient-dark {
+  background: linear-gradient(90deg, rgba(255,81,47,1) 0%, rgba(240,152,25,1) 100%);
+}
+
+.bg-gradient {
+    background-image: linear-gradient(90deg, rgba(255,81,47,1) 0%, rgba(240,152,25,1) 100%);
+}
+
+.bg-gradient-blue {
+    background-image: linear-gradient(90deg, rgba(255,81,47,1) 32%, rgba(240,152,25,1) 100%);
+}
+
+.it-solution .bg-gradient {
+    background-image: linear-gradient(90deg, rgba(255,81,47,1) 35%, rgba(240,152,25,1) 100%);
+}
+
+.btn-gradient::after {
+    background: linear-gradient(to left, rgba(255,81,47,1), rgba(240,152,25,1), rgba(255,81,47,1));
+}
+
+.software .btn-gradient::after {
+    background: linear-gradient(to left, #4ac4f3, #00ffe7, #4ac4f3);
+}
+
+.software .heading-center h5 {
+    background: linear-gradient(90deg, #4ac4f3 0%, #09f8e9 100%);
+}
+
+.top-bar-area .item-flex .language-switcher .dropdown-toggle, 
+.top-bar-area .item-flex .language-switcher .dropdown-toggle:focus {
+    background-image: linear-gradient(90deg, rgba(255,81,47,1) 0%, rgba(240,152,25,1) 100%);
+}
+
+.banner-area.circle-bg .background::before {
+  background: linear-gradient(90deg, rgba(255,81,47,1) 0%, rgba(240,152,25,1) 100%);
+}
+
+.banner-area .form-info {
+    background: linear-gradient(90deg, rgba(255,81,47,1) 0%, rgba(240,152,25,1) 100%);
+}
+
+.blue .banner-area .form-info {
+    background: linear-gradient(90deg, rgba(255,81,47,1) 32%, rgba(240,152,25,1) 100%);
+}
+
+.features-items .single-item .item::after {
+    background: linear-gradient(to bottom, rgba(255,81,47,1) 0%,rgba(240,152,25,1) 100%);
+}
+
+.software .about-area .about-right h5 {
+    background: linear-gradient(90deg, #4ac4f3 0%, #09f8e9 100%);
+}
+
+.free-trial-area .trial-facilities {
+    padding: 50px;
+    background: linear-gradient(90deg, rgba(255,81,47,1) 32%, rgba(240,152,25,1) 100%);
+    clip-path: polygon(100% 0, 100% 87%, 90% 100%, 0 99%, 0 0);
+}
+
+.services-content-box .item > i, 
+.services-content-box .item .icon > i {
+    background: linear-gradient(90deg, rgba(255,81,47,1) 0%, rgba(240,152,25,1) 100%);
+}
+
+.blue .services-content-box .item > i, 
+.blue .services-content-box .item .icon > i {
+    background: linear-gradient(90deg, rgba(255,81,47,1) 32%, rgba(240,152,25,1) 100%);
+}
+
+.process-list-items .icon span {
+    background: linear-gradient(90deg, rgba(255,81,47,1) 32%, rgba(240,152,25,1) 100%);
+}
+
+.fun-fact-area .inner-items {
+    background: linear-gradient(90deg, rgba(255,81,47,1) 0%, rgba(240,152,25,1) 100%);
+}
+
+.blue .fun-fact-area .inner-items {
+    background: linear-gradient(90deg, rgba(255,81,47,1) 32%, rgba(240,152,25,1) 100%);
+}
+
+.fun-factor-area form button {
+    background: linear-gradient(90deg, rgba(255,81,47,1) 32%, rgba(240,152,25,1) 100%);
+}
+
+.it-solution .portfolio-area .portfolio-items .pf-item .overlay > a {
+  background: linear-gradient(90deg, rgba(255,81,47,1) 35%, rgba(240,152,25,1) 100%);
+}
+
+.it-solution .testimonials-area .thumb::after {
+    background: linear-gradient(90deg, rgba(255,81,47,1) 35%, rgba(240,152,25,1) 100%);
+}
+
+.software-overview-area .info h5 {
+    background: linear-gradient(90deg, #4ac4f3 0%, #09f8e9 100%);
+}
+
+.about-us-content-area .thumb .overlay {
+    background: linear-gradient(90deg, rgba(255,81,47,1) 35%, rgba(240,152,25,1) 100%);
+}
+
+.services-list-items.services-default-carousel .item .top i::after {
+    background: linear-gradient(90deg, rgba(255,81,47,1) 35%, rgba(240,152,25,1) 100%);
+}
